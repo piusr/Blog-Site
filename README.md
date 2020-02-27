@@ -9,3 +9,7 @@ https://piusr.github.io/Blog-Site/
 #Languages
 1. HTML
 2. CSS
+
+
+#Photo Credits
+All images are gotten from unsplash - https://unsplash.com/
