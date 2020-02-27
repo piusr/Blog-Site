@@ -1,0 +1,92 @@
+
+  /*--------------------------------------------------------------
+# Module Rules
+--------------------------------------------------------------*/
+
+.btn {
+  display: inline-block;
+  padding: 5px ;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #e88307;
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+.btn:hover{
+
+    background-color: #0339fc;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s;
+
+}
+
+.card{
+ 
+    background-color: #fff;
+    border: #eee 1px solid;
+    padding: 20px;
+    margin-top: 20px;
+}
+.card img{
+    width: 100%;
+    border: #ddd 1px solid;
+}
+.links {
+    list-style-type: none;
+    
+}
+.links a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #e80b07;
+}
+.links a:hover{
+    text-decoration:underline;
+    color: #0339fc;
+    transition: all 1.0s;
+}
+.share{
+  list-style-type: none;
+  /* display: inline; */
+}
+
+i.fab, i.fas{
+    font-size: 1.9em;
+    color: #e88307;
+    padding: 5px;
+}
+
+i.fab:hover{
+    color: #0339fc;
+    transition: all 0.5s;
+}
+i.fas:hover{
+    color:#0339fc;
+    transition: all 0.5s;
+}
+.nested{
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-auto-rows: minmax(100px, auto);
+    /* grid-row-gap: 2em; */
+    text-align: center;
+
+}
+
+.nested > div{
+    border: #f7f7f7 1px solid;
+}
+.spacer{
+    margin-bottom: 5em;
+}
+
+.seperator{
+    padding-left: 20px;
+}
+.img-position{
+    width: 200px !important;
+    float: right;
+}

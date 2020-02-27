@@ -1,0 +1,129 @@
+/*
+ *
+ * CSS written based on SMACSS architecture.
+ * To learn more, visit: http://smacss.com/
+ * 
+ * 
+ * 
+ *
+*/
+
+
+/*--------------------------------------------------------------
+# Base Rules
+--------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Simonetta&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
+@import url('module-rules.css');
+body {
+    font-family: 'Roboto', 'Simonetta', arial;
+    margin: 0;
+    background-color: #ddd;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  
+  @media only screen and (min-width: 768px) {
+    .container {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      grid-auto-rows: minmax(100px, auto);
+      
+    }
+    .posts{
+        display: flex;
+        justify-content: space-between;
+        /* grid-template-columns:repeat(3, 1fr);
+        grid-auto-columns: minmax(100px, auto);
+        padding: 15px;
+        text-align: center; */
+    
+    }
+  }
+
+/*--------------------------------------------------------------
+# Typeography General
+--------------------------------------------------------------*/
+
+
+h1,h2,h3,h4,h5,h6{
+    color: #e88307;
+}
+
+h1 {
+  margin-bottom: 1em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: #0339fc;
+}
+a:hover{
+  text-decoration: underline;
+  color: #e88307;
+}
+
+
+/*--------------------------------------------------------------
+# Layout Rules
+--------------------------------------------------------------*/
+
+  header {
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Simonetta';
+    font-size: 1.9em;
+    background: linear-gradient(45deg, #ff3366, #332a68);
+    /* background-image: url(../img/pics4.jpg); */
+    /* background-repeat: no-repeat; */
+    color: white;
+  }
+
+  
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+   
+  aside {
+    padding: 5px;
+    background-color: #fff;
+  }
+  
+  footer {
+    grid-column: span 3;
+    padding: 30px;
+    text-align: left;
+    font-size: 1em;
+    background: linear-gradient(45deg, #ff3366, #332a68);
+    color: white;
+  }
+
+  /* footer ul {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  footer ul li{
+    margin-right: 5px;
+  } */
+  footer a{
+      text-decoration: none;
+      color: #fff !important;
+  }
+  footer a:hover{
+      text-decoration: underline;
+      color: #e88307;
+  }
+
+
