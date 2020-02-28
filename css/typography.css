@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+# Typeography General
+--------------------------------------------------------------*/
+
+
+h1,h2,h3,h4,h5,h6{
+    color: #e88307;
+}
+
+h1 {
+  margin-bottom: 1em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: #0339fc;
+}
+a:hover{
+  text-decoration: underline;
+  color: #e88307;
+}

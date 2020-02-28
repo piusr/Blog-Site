@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+# Layout Rules
+--------------------------------------------------------------*/
+
+header {
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Simonetta';
+    font-size: 1.9em;
+    background: linear-gradient(45deg, #ff3366, #332a68);
+    /* background-image: url(../img/pics4.jpg); */
+    /* background-repeat: no-repeat; */
+    color: white;
+  }
+
+  
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+   
+  aside {
+    padding: 5px;
+    background-color: #fff;
+  }
+  
+  footer {
+    grid-column: span 3;
+    padding: 30px;
+    text-align: left;
+    font-size: 1em;
+    background: linear-gradient(45deg, #ff3366, #332a68);
+    color: white;
+  }
+
+
+  footer a{
+      text-decoration: none;
+      color: #fff !important;
+  }
+  footer a:hover{
+      text-decoration: underline;
+      color: #e88307;
+  }
